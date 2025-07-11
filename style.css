@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+.details{
+    text-align: center;
+    padding: 3% 14%;
+}
+.title{
+    font-size: 60px;
+    font-weight: 900;
+}
+.enter-btn{
+    padding: 7px 40px;
+}
+.todolist-cards{
+    padding: 0% 10%;
+    text-align: center;
+}
+.card{
+    margin: 30px;
+}
+.card-title{
+    font-weight: 700;
+}
+.finished{
+    text-decoration: line-through;
+}
+#finished{
+    display: none;
+}
+.clock{
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.added-time{
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 702px) {
+    .clock{
+        padding-left: 10px;
+        padding-bottom: 40px;
+    }
+}
